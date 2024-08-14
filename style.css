@@ -4,7 +4,7 @@ html,body {
                 padding: 0;
                 cursor: crosshair;
                 color:#1A237E;
-                background-image: url(image/background.jpg); 
+                background-image: url(background.jpg); 
                 background-size: cover;
                 justify-content: center;
                 text-align: center;
