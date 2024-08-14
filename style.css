@@ -1,0 +1,52 @@
+html,body {
+                font-family: Montserrat, Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                cursor: crosshair;
+                color:#1A237E;
+                background-image: url(image/background.jpg); 
+                background-size: cover;
+                justify-content: center;
+                text-align: center;
+            }
+            
+            canvas {
+                display: block;
+            }
+            
+            header {
+                position: absolute;
+                top: 1rem;
+                left: 30rem;
+                z-index: 2;
+                width:calc(100vw * 0.618);
+                text-align: center;
+            }
+
+            @media (orientation: landscape){
+                header {
+                    width:calc(100vw * 0.382);                    
+                }
+            }
+
+            p{
+                line-height:1.5;
+            }
+
+            code{
+                color:#0d3b66;
+                font-size:1rem;
+            }
+            aside {
+                z-index:2;
+                position: absolute;
+                left: 1rem;
+                bottom: 1rem;
+            }
+            a{color:FFD600;
+                text-decoration: none;
+                margin-right: 1rem;
+            }
+
+            a.activo{font-weight: bold;
+                text-decoration: underline;}
